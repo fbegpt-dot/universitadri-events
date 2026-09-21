@@ -23,9 +23,12 @@ h1{font-size:clamp(2.25rem,7vw,4.6rem);line-height:.98;letter-spacing:-.055em;ma
 .event-body h2{font-size:1.15rem;letter-spacing:-.02em;margin:0 0 9px}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
 .tag{font-size:.72rem;border-radius:999px;padding:4px 8px;background:var(--accent-soft);color:#243cae}
-.details{font-size:.9rem;color:var(--muted);line-height:1.45;margin:0 0 9px}
+.details{font-size:.9rem;color:var(--muted);line-height:1.45;margin:0 0 11px}
+.event-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .source-link{font-size:.86rem;font-weight:650;color:var(--ink);text-decoration:none}
 .source-link:hover{text-decoration:underline}
+.calendar-link{border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:7px 11px;font:inherit;font-size:.8rem;font-weight:650;cursor:pointer}
+.calendar-link:hover{border-color:var(--ink);background:var(--soft)}
 .empty{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:24px;line-height:1.55;color:var(--muted)}
 .sources{margin-top:40px;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
 .sources summary{cursor:pointer;font-weight:700}
