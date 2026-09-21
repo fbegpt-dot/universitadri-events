@@ -1,0 +1,112 @@
+[
+  {
+    "institution": "LUISS",
+    "areas": [
+      "Economia"
+    ],
+    "urls": [
+      "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    ]
+  },
+  {
+    "institution": "Università Cattolica Roma",
+    "areas": [
+      "Economia"
+    ],
+    "urls": [
+      "https://www.unicatt.it/corsi/info-lauree-triennali-e-a-ciclo-unico/le-attivita-di-orientamento.html"
+    ]
+  },
+  {
+    "institution": "Tor Vergata",
+    "areas": [
+      "Economia"
+    ],
+    "urls": [
+      "https://economia.uniroma2.it/orientamento",
+      "https://economia.uniroma2.it/cdl/triennio/clem/eventi-di-orientamento-in-entrata/"
+    ]
+  },
+  {
+    "institution": "Sapienza",
+    "areas": [
+      "Economia",
+      "Design",
+      "Architettura",
+      "Gioiello"
+    ],
+    "urls": [
+      "https://www.uniroma1.it/it/appuntamenti/orientamento",
+      "https://orientamento.uniroma1.it/",
+      "https://www.architettura.uniroma1.it/"
+    ]
+  },
+  {
+    "institution": "LUMSA",
+    "areas": [
+      "Economia"
+    ],
+    "urls": [
+      "https://lumsa.it/it/open-day-sede-di-roma"
+    ]
+  },
+  {
+    "institution": "Roma Tre",
+    "areas": [
+      "Economia",
+      "Architettura"
+    ],
+    "urls": [
+      "https://orientamento.uniroma3.it/",
+      "https://economiaziendale.uniroma3.it/didattica/orientamento/",
+      "https://architettura.uniroma3.it/didattica/orientamento/"
+    ]
+  },
+  {
+    "institution": "ISIA Roma Design",
+    "areas": [
+      "Design",
+      "Gioiello"
+    ],
+    "urls": [
+      "https://www.isiaroma.it/studenti/orientamento/"
+    ]
+  },
+  {
+    "institution": "NABA Roma",
+    "areas": [
+      "Design"
+    ],
+    "urls": [
+      "https://www.naba.it/it/open-day"
+    ]
+  },
+  {
+    "institution": "IED Roma",
+    "areas": [
+      "Design",
+      "Gioiello"
+    ],
+    "urls": [
+      "https://www.ied.it/orientamento-opendays-workshop"
+    ]
+  },
+  {
+    "institution": "Accademia Italiana Roma",
+    "areas": [
+      "Gioiello"
+    ],
+    "urls": [
+      "https://www.accademiaitaliana.com/servizi/openday"
+    ]
+  },
+  {
+    "institution": "Accademia di Belle Arti di Roma",
+    "areas": [
+      "Gioiello"
+    ],
+    "urls": [
+      "https://abaroma.it/"
+    ]
+  }
+]

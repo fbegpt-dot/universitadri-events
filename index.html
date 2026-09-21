@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Day universitari a Roma — Adriano</title>
+  <meta name="description" content="Prossimi Open Day e giornate di orientamento a Roma per Economia, Design, Architettura e Design del Gioiello.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <p class="eyebrow">ORIENTAMENTO UNIVERSITARIO · ROMA</p>
+      <h1>Prossimi appuntamenti</h1>
+      <p class="intro">Open Day, giornate di orientamento e incontri utili per le aree Economia, Design, Architettura e Design del Gioiello.</p>
+      <div class="meta" id="meta">Caricamento aggiornamento…</div>
+    </header>
+
+    <section class="filters" aria-label="Filtri">
+      <button class="filter active" data-area="Tutte">Tutte</button>
+      <button class="filter" data-area="Economia">Economia</button>
+      <button class="filter" data-area="Design">Design</button>
+      <button class="filter" data-area="Architettura">Architettura</button>
+      <button class="filter" data-area="Gioiello">Gioiello</button>
+    </section>
+
+    <section id="events" class="events" aria-live="polite"></section>
+
+    <details class="sources">
+      <summary>Fonti monitorate</summary>
+      <div id="sources-list">Caricamento…</div>
+    </details>
+
+    <footer>
+      <p>Le informazioni provengono dai siti ufficiali degli atenei e delle accademie. Prima di partecipare, verifica sempre eventuali variazioni sulla pagina originale.</p>
+    </footer>
+  </main>
+
+<script>
+const monthFmt = new Intl.DateTimeFormat('it-IT', { month: 'long', year: 'numeric' });
+const dayFmt = new Intl.DateTimeFormat('it-IT', { weekday:'short', day:'numeric', month:'long' });
+
+let allEvents = [];
+let activeArea = 'Tutte';
+
+function esc(s='') {
+  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function render() {
+  const root = document.getElementById('events');
+  const items = allEvents.filter(e => activeArea === 'Tutte' || (e.areas || []).includes(activeArea));
+
+  if (!items.length) {
+    root.innerHTML = '<div class="empty"><strong>Nessun appuntamento con data certa.</strong><br>Il monitor continuerà a controllare le fonti ufficiali ogni settimana.</div>';
+    return;
+  }
+
+  const groups = new Map();
+  for (const e of items) {
+    const d = new Date(e.date + 'T12:00:00');
+    const key = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0');
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(e);
+  }
+
+  root.innerHTML = [...groups.entries()].map(([key, list]) => {
+    const label = monthFmt.format(new Date(key + '-01T12:00:00'));
+    const cards = list.map(e => {
+      const d = new Date(e.date + 'T12:00:00');
+      const tags = (e.areas || []).map(a => '<span class="tag">'+esc(a)+'</span>').join('');
+      return `<article class="event-card">
+        <div class="date-box">
+          <span class="date-day">${d.getDate()}</span>
+          <span class="date-week">${dayFmt.format(d).split(' ')[0]}</span>
+        </div>
+        <div class="event-body">
+          <div class="institution">${esc(e.institution)}</div>
+          <h2>${esc(e.title)}</h2>
+          <div class="tags">${tags}</div>
+          <p class="details">${esc(e.details || 'Roma')}</p>
+          <a class="source-link" href="${esc(e.url)}" target="_blank" rel="noopener">Informazioni ufficiali →</a>
+        </div>
+      </article>`;
+    }).join('');
+    return `<section class="month"><h2 class="month-title">${label}</h2>${cards}</section>`;
+  }).join('');
+}
+
+document.querySelectorAll('.filter').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeArea = btn.dataset.area;
+    render();
+  });
+});
+
+Promise.all([
+  fetch('data/events.json', {cache:'no-store'}).then(r => r.json()),
+  fetch('sources.json', {cache:'no-store'}).then(r => r.json())
+]).then(([data, sources]) => {
+  allEvents = (data.events || []).sort((a,b) => a.date.localeCompare(b.date));
+  const checked = data.sources_checked ?? sources.length;
+  document.getElementById('meta').textContent =
+    'Ultimo controllo: ' + (data.last_updated || 'non disponibile') + ' · ' + checked + ' istituzioni monitorate';
+  document.getElementById('sources-list').innerHTML = sources.map(s =>
+    '<div class="source-row"><strong>'+esc(s.institution)+'</strong><span>'+esc((s.areas||[]).join(' · '))+'</span></div>'
+  ).join('');
+  render();
+}).catch(() => {
+  document.getElementById('events').innerHTML = '<div class="empty">Non riesco a caricare i dati degli eventi.</div>';
+  document.getElementById('meta').textContent = 'Aggiornamento non disponibile';
+});
+</script>
+</body>
+</html>

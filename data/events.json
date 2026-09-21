@@ -1,0 +1,56 @@
+{
+  "last_updated": "21 settembre 2026",
+  "sources_checked": 11,
+  "events": [
+    {
+      "institution": "LUISS",
+      "title": "Giornata di orientamento LUISS",
+      "date": "2026-10-24",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · orientamento per studenti delle scuole superiori",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
+      "title": "Giornata di orientamento LUISS",
+      "date": "2026-11-21",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · orientamento per studenti delle scuole superiori",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "NABA Roma",
+      "title": "Open Day",
+      "date": "2026-11-21",
+      "areas": [
+        "Design"
+      ],
+      "details": "Roma · Campus NABA",
+      "url": "https://www.naba.it/it/open-day"
+    },
+    {
+      "institution": "LUISS",
+      "title": "Giornata di orientamento LUISS",
+      "date": "2026-12-19",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · orientamento per studenti delle scuole superiori",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
+      "title": "Giornata di orientamento LUISS",
+      "date": "2027-01-23",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · orientamento per studenti delle scuole superiori",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    }
+  ]
+}
