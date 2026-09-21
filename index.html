@@ -44,7 +44,61 @@ let allEvents = [];
 let activeArea = 'Tutte';
 
 function esc(s='') {
-  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function icsEscape(s='') {
+  return String(s)
+    .replace(/\\/g, '\\\\')
+    .replace(/\n/g, '\\n')
+    .replace(/,/g, '\\,')
+    .replace(/;/g, '\\;');
+}
+
+function nextDay(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00');
+  d.setDate(d.getDate() + 1);
+  return d.toISOString().slice(0, 10).replace(/-/g, '');
+}
+
+function downloadIcs(index) {
+  const e = allEvents[index];
+  if (!e) return;
+
+  const start = e.date.replace(/-/g, '');
+  const end = nextDay(e.date);
+  const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+  const description = (e.details || 'Roma') + '\nFonte ufficiale: ' + e.url;
+
+  const ics = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//Universitadri Events//IT',
+    'CALSCALE:GREGORIAN',
+    'METHOD:PUBLISH',
+    'BEGIN:VEVENT',
+    'UID:' + start + '-' + index + '@universitadri-events',
+    'DTSTAMP:' + stamp,
+    'DTSTART;VALUE=DATE:' + start,
+    'DTEND;VALUE=DATE:' + end,
+    'SUMMARY:' + icsEscape(e.institution + ' — ' + e.title),
+    'DESCRIPTION:' + icsEscape(description),
+    'LOCATION:' + icsEscape('Roma'),
+    'URL:' + icsEscape(e.url),
+    'END:VEVENT',
+    'END:VCALENDAR'
+  ].join('\r\n');
+
+  const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const safeName = (e.institution + '-' + e.date).toLowerCase().replace(/[^a-z0-9-]+/g, '-');
+  a.href = url;
+  a.download = safeName + '.ics';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
 }
 
 function render() {
@@ -68,6 +122,7 @@ function render() {
     const label = monthFmt.format(new Date(key + '-01T12:00:00'));
     const cards = list.map(e => {
       const d = new Date(e.date + 'T12:00:00');
+      const eventIndex = allEvents.indexOf(e);
       const tags = (e.areas || []).map(a => '<span class="tag">'+esc(a)+'</span>').join('');
       return `<article class="event-card">
         <div class="date-box">
@@ -79,7 +134,10 @@ function render() {
           <h2>${esc(e.title)}</h2>
           <div class="tags">${tags}</div>
           <p class="details">${esc(e.details || 'Roma')}</p>
-          <a class="source-link" href="${esc(e.url)}" target="_blank" rel="noopener">Informazioni ufficiali →</a>
+          <div class="event-actions">
+            <a class="source-link" href="${esc(e.url)}" target="_blank" rel="noopener">Informazioni ufficiali →</a>
+            <button class="calendar-link" type="button" onclick="downloadIcs(${eventIndex})">Aggiungi al calendario</button>
+          </div>
         </div>
       </article>`;
     }).join('');
