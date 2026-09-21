@@ -1,5 +1,5 @@
 {
-  "last_updated": "21 settembre 2026",
+  "last_updated": "21/09/2026",
   "sources_checked": 11,
   "events": [
     {
@@ -14,6 +14,47 @@
     },
     {
       "institution": "LUISS",
+      "title": "Sessioni mensili digitali di Q&A L'Ufficio Ammissione e l'Ufficio Orientamento s",
+      "date": "2026-10-24",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
+      "title": "dicembre 2026 Bologna - Orienta Emilia-Romagna 19–21 gennaio 2027 Informazioni e contatti Orientamento Vi",
+      "date": "2026-11-12",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "NABA Roma",
+      "title": "nda Open Day Novembre 2026 L’agenda dell’Open Day di novembre è disponibile in questa pagina",
+      "date": "2026-11-14",
+      "areas": [
+        "Design"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.naba.it/it/open-day"
+    },
+    {
+      "institution": "Roma Tre",
+      "title": "Presso lo stand di Roma Tre sarà possibile incontrare il personale dell’ Ufficio Orientamento e gli studenti e l…",
+      "date": "2026-11-20",
+      "areas": [
+        "Economia",
+        "Architettura"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://architettura.uniroma3.it/didattica/orientamento/"
+    },
+    {
+      "institution": "LUISS",
       "title": "Giornata di orientamento LUISS",
       "date": "2026-11-21",
       "areas": [
@@ -21,6 +62,26 @@
       ],
       "details": "Roma · orientamento per studenti delle scuole superiori",
       "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
+      "title": "Sessioni mensili digitali di Q&A L'Ufficio Ammissione e l'Ufficio Orientamento sono a tua disposizione i",
+      "date": "2026-11-21",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "NABA Roma",
+      "title": "Management Presentazioni Bienni e Master 11:30 - Bienni Specialistici e Master Accademici Open Day - 14, 18 e 21…",
+      "date": "2026-11-21",
+      "areas": [
+        "Design"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.naba.it/it/open-day"
     },
     {
       "institution": "NABA Roma",
@@ -31,6 +92,36 @@
       ],
       "details": "Roma · Campus NABA",
       "url": "https://www.naba.it/it/open-day"
+    },
+    {
+      "institution": "NABA Roma",
+      "title": "aster Accademici Lasciarti ispirare dai progetti realizzati dagli studenti dell’Accademia Open Day - 14, 18 e 21…",
+      "date": "2026-11-21",
+      "areas": [
+        "Design"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.naba.it/it/open-day"
+    },
+    {
+      "institution": "LUISS",
+      "title": "dicembre 2026 Bologna - Orienta Emilia-Romagna 19–21 gennaio 2027 Informazioni e contatti Orientamento Viale Rom…",
+      "date": "2026-11-28",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
+      "title": "dicembre 2026 Bologna - Orienta Emilia-Romagna 19–21 gennaio 2027 Informazioni e contatti Orientamento Viale Rom…",
+      "date": "2026-12-17",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
     },
     {
       "institution": "LUISS",
@@ -44,12 +135,42 @@
     },
     {
       "institution": "LUISS",
+      "title": "Sessioni mensili digitali di Q&A L'Ufficio Ammissione e l'Ufficio Orientamento sono a tua disposizione in delle…",
+      "date": "2026-12-19",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
+      "title": "dicembre 2026 Bologna - Orienta Emilia-Romagna 19–21 gennaio 2027 Informazioni e contatti Orientamento Viale Rom…",
+      "date": "2027-01-21",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
       "title": "Giornata di orientamento LUISS",
       "date": "2027-01-23",
       "areas": [
         "Economia"
       ],
       "details": "Roma · orientamento per studenti delle scuole superiori",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
+      "title": "Sessioni mensili digitali di Q&A L'Ufficio Ammissione e l'Ufficio Orientamento sono a tua disposizione in delle…",
+      "date": "2027-01-23",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
       "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
     }
   ]
