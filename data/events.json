@@ -1,5 +1,5 @@
 {
-  "last_updated": "28/09/2026",
+  "last_updated": "05/10/2026",
   "sources_checked": 11,
   "events": [
     {
@@ -12,6 +12,16 @@
       "details": "Roma · orientamento per studenti delle scuole superiori",
       "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
       "verified": true
+    },
+    {
+      "institution": "Tor Vergata",
+      "title": "martedì 3 novembre 2026 Global Governance Open Day 3 November 2026",
+      "date": "2026-11-03",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://economia.uniroma2.it/orientamento"
     },
     {
       "institution": "LUISS",
