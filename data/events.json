@@ -1,18 +1,7 @@
 {
-  "last_updated": "19/10/2026",
+  "last_updated": "26/10/2026",
   "sources_checked": 11,
   "events": [
-    {
-      "institution": "LUISS",
-      "title": "Giornata di orientamento LUISS",
-      "date": "2026-10-24",
-      "areas": [
-        "Economia"
-      ],
-      "details": "Roma · orientamento per studenti delle scuole superiori",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
-      "verified": true
-    },
     {
       "institution": "Tor Vergata",
       "title": "martedì 3 novembre 2026 Global Governance Open Day 3 November 2026",
@@ -33,6 +22,26 @@
       "details": "Roma · orientamento per studenti delle scuole superiori",
       "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
       "verified": true
+    },
+    {
+      "institution": "LUISS",
+      "title": "Open Day Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insi",
+      "date": "2026-11-21",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
+      "title": "Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insieme ai tuoi familiari, p",
+      "date": "2026-11-21",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
     },
     {
       "institution": "NABA Roma",
@@ -68,6 +77,26 @@
     },
     {
       "institution": "LUISS",
+      "title": "Open Day Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insi",
+      "date": "2026-12-19",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
+      "title": "Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insieme ai tuoi familiari, p",
+      "date": "2026-12-19",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
       "title": "Giornata di orientamento LUISS",
       "date": "2027-01-23",
       "areas": [
@@ -76,6 +105,26 @@
       "details": "Roma · orientamento per studenti delle scuole superiori",
       "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
       "verified": true
+    },
+    {
+      "institution": "LUISS",
+      "title": "Open Day Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insi",
+      "date": "2027-01-23",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
+    },
+    {
+      "institution": "LUISS",
+      "title": "Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insieme ai tuoi familiari, p",
+      "date": "2027-01-23",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
     }
   ]
 }
