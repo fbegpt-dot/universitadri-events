@@ -1,6 +1,6 @@
 {
   "last_updated": "31/10/2026",
-  "sources_checked": 11,
+  "sources_checked": 12,
   "events": [
     {
       "institution": "Tor Vergata",
@@ -33,6 +33,16 @@
       "details": "Roma · Campus NABA",
       "url": "https://www.naba.it/it/open-day",
       "verified": true
+    },
+    {
+      "institution": "Università Cattolica Roma",
+      "title": "le lauree triennali e a ciclo unico | 28 novembre 2026 Open Day Unicatt - sede di Roma Roma",
+      "date": "2026-11-28",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.unicatt.it/eventi/orientamento/triennali-e-a-ciclo-unico/open_day_unicatt_Roma.html"
     },
     {
       "institution": "LUISS",
