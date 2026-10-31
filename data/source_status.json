@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T16:36:49",
+  "last_updated": "2026-10-31T17:41:48",
   "institutions": [
     {
       "institution": "LUISS",
@@ -87,7 +87,7 @@
         {
           "url": "https://www.architettura.uniroma1.it/",
           "status": "error",
-          "message": "HTTPSConnectionPool(host='www.architettura.uniroma1.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.architettura.uniroma1.it', port=443) at 0x75658c4b44d0>, 'Connection to www.architettura.un"
+          "message": "HTTPSConnectionPool(host='www.architettura.uniroma1.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.architettura.uniroma1.it', port=443) at 0x71720198d460>, 'Connection to www.architettura.un"
         }
       ]
     },

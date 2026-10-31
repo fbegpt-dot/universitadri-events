@@ -1,0 +1,173 @@
+{
+  "last_updated": "31/10/2026",
+  "scope": "Economia e Management — Roma",
+  "items": [
+    {
+      "institution": "Università Cattolica Roma",
+      "kind": "apertura",
+      "date": "2026-11-02",
+      "time": "15:00",
+      "title": "Apertura iscrizioni alla prova di ammissione 2027/28",
+      "details": "Economia e gestione d'azienda — sede di Roma.",
+      "url": "https://www.unicatt.it/corsi/triennale/economia-e-gestione-d-azienda-roma.html?anchor=iscrizione",
+      "verified": true,
+      "source": "verified"
+    },
+    {
+      "institution": "LUISS",
+      "kind": "open_day",
+      "date": "2026-11-21",
+      "title": "Giornata di orientamento LUISS",
+      "details": "Roma · orientamento per studenti delle scuole superiori",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
+      "verified": true,
+      "source": "monitor"
+    },
+    {
+      "institution": "LUMSA",
+      "kind": "open_day",
+      "date": "2026-11-21",
+      "time": "09:30",
+      "title": "Open Day 2027/28 — Roma",
+      "details": "Open Day in presenza, sede di Via Pompeo Magno 28.",
+      "url": "https://lumsa.it/it/newsroom/eventi/open-day-2027-2028-sabato-21-novembre-appuntamento-roma",
+      "verified": true,
+      "source": "verified"
+    },
+    {
+      "institution": "Università Cattolica Roma",
+      "kind": "open_day",
+      "date": "2026-11-28",
+      "title": "le lauree triennali e a ciclo unico | 28 novembre 2026 Open Day Unicatt - sede di Roma Roma",
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.unicatt.it/eventi/orientamento/triennali-e-a-ciclo-unico/open_day_unicatt_Roma.html",
+      "verified": false,
+      "source": "monitor"
+    },
+    {
+      "institution": "LUISS",
+      "kind": "open_day",
+      "date": "2026-12-19",
+      "title": "Giornata di orientamento LUISS",
+      "details": "Roma · orientamento per studenti delle scuole superiori",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
+      "verified": true,
+      "source": "monitor"
+    },
+    {
+      "institution": "Università Cattolica Roma",
+      "kind": "scadenza",
+      "date": "2027-01-20",
+      "time": "23:59",
+      "title": "Scadenza iscrizione alla prova di ammissione",
+      "details": "Termine per iscriversi alle prime sessioni della prova 2027/28.",
+      "url": "https://www.unicatt.it/corsi/triennale/economia-e-gestione-d-azienda-roma.html?anchor=iscrizione",
+      "verified": true,
+      "source": "verified"
+    },
+    {
+      "institution": "LUISS",
+      "kind": "open_day",
+      "date": "2027-01-23",
+      "title": "Giornata di orientamento LUISS",
+      "details": "Roma · orientamento per studenti delle scuole superiori",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
+      "verified": true,
+      "source": "monitor"
+    },
+    {
+      "institution": "Università Cattolica Roma",
+      "kind": "test",
+      "date": "2027-01-28",
+      "end_date": "2027-01-30",
+      "title": "Prime sessioni della prova di ammissione",
+      "details": "Sessioni previste il 28, 29 e 30 gennaio 2027.",
+      "url": "https://www.unicatt.it/corsi/triennale/economia-e-gestione-d-azienda-roma.html?anchor=iscrizione",
+      "verified": true,
+      "source": "verified"
+    },
+    {
+      "institution": "LUISS",
+      "kind": "scadenza",
+      "date": "2027-02-10",
+      "title": "Scadenza candidatura — I sessione Test Luiss",
+      "details": "Economia e Management, a.a. 2027/28.",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-con-test-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ue",
+      "verified": true,
+      "source": "verified"
+    },
+    {
+      "institution": "LUISS",
+      "kind": "test",
+      "date": "2027-02-22",
+      "end_date": "2027-02-26",
+      "title": "Test Luiss — I sessione",
+      "details": "Test online; giorno e orario si scelgono in fase di prenotazione.",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-con-test-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ue",
+      "verified": true,
+      "source": "verified"
+    },
+    {
+      "institution": "LUISS",
+      "kind": "scadenza",
+      "date": "2027-03-24",
+      "title": "Scadenza ammissione diretta con certificazioni",
+      "details": "Per candidati UE/Schengen con certificazioni internazionali ammesse (es. SAT/ACT/IB secondo bando).",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-diretta-con-certificazioni-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ueschengen",
+      "verified": true,
+      "source": "verified"
+    },
+    {
+      "institution": "LUISS",
+      "kind": "immatricolazione",
+      "date": "2027-05-04",
+      "title": "Termine prenotazione immatricolazione per ammessi",
+      "details": "Per chi risulta ammesso: prenotazione con versamento della prima rata.",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-con-test-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ue",
+      "verified": true,
+      "source": "verified"
+    },
+    {
+      "institution": "LUISS",
+      "kind": "scadenza",
+      "date": "2027-05-10",
+      "title": "Scadenza candidatura — II sessione Test Luiss",
+      "details": "Seconda sessione prevista per i corsi con posti ancora disponibili.",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-con-test-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ue",
+      "verified": true,
+      "source": "verified"
+    },
+    {
+      "institution": "LUISS",
+      "kind": "immatricolazione",
+      "date": "2027-07-22",
+      "title": "Termine per perfezionare l'immatricolazione",
+      "details": "Scadenza finale indicata per il perfezionamento dell'immatricolazione 2027/28.",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-con-test-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ue",
+      "verified": true,
+      "source": "verified"
+    }
+  ],
+  "waiting": [
+    {
+      "institution": "Tor Vergata",
+      "note": "Procedura di ammissione 2027/28 non ancora pubblicata sulla pagina ufficiale monitorata."
+    },
+    {
+      "institution": "Sapienza",
+      "note": "Procedura di ammissione 2027/28 non ancora pubblicata sulla pagina ufficiale monitorata."
+    },
+    {
+      "institution": "LUMSA",
+      "note": "Procedura di ammissione 2027/28 non ancora pubblicata sulla pagina ufficiale monitorata."
+    },
+    {
+      "institution": "Roma Tre",
+      "note": "Per il 2027/28 attendiamo il nuovo bando. Il corso è ad accesso libero con prova iniziale non selettiva."
+    },
+    {
+      "institution": "Università Europea di Roma",
+      "note": "Procedura 2027/28 da monitorare: nessuna data certa inserita finché non compare su fonte ufficiale."
+    }
+  ]
+}
