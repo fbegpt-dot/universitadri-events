@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / "sources.json"
 EVENTS = ROOT / "data" / "events.json"
+STATUS = ROOT / "data" / "source_status.json"
 
 MONTHS = {
     "gennaio":1,"febbraio":2,"marzo":3,"aprile":4,"maggio":5,"giugno":6,
@@ -66,6 +67,7 @@ def make_event(source, url, d, text):
 
 def scrape_source(source):
     found = []
+    statuses = []
     today = date.today()
 
     for url in source["urls"]:
@@ -74,8 +76,10 @@ def scrape_source(source):
             r.raise_for_status()
         except Exception as exc:
             print(f"WARN {source['institution']} {url}: {exc}", file=sys.stderr)
+            statuses.append({"url": url, "status": "error", "message": str(exc)[:250]})
             continue
 
+        statuses.append({"url": url, "status": "ok", "http_status": r.status_code})
         soup = BeautifulSoup(r.text, "html.parser")
         for tag in soup(["script","style","noscript","svg"]):
             tag.decompose()
@@ -109,21 +113,19 @@ def scrape_source(source):
 
                 found.append(make_event(source, url, d, text))
 
-    return found
+    return found, statuses
 
 def dedupe(events):
-    seen, out = set(), []
-    for e in sorted(events, key=lambda x:(x["date"], x["institution"], x["title"])):
-        key = (
-            e["institution"].lower(),
-            e["date"],
-            re.sub(r"\W+","",e["title"].lower())[:55]
-        )
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(e)
-    return out
+    # An institution/date/source combination represents one appointment.
+    # Prefer a manually verified entry over a scraped description.
+    chosen = {}
+    for e in events:
+        key = (e["institution"].casefold(), e["date"], e["url"].rstrip("/"))
+        old = chosen.get(key)
+        if old is None or (e.get("verified") is True and old.get("verified") is not True):
+            chosen[key] = e
+    return sorted(chosen.values(), key=lambda e: (e["date"], e["institution"]))
+
 
 def main():
     sources = load_json(SOURCES, [])
@@ -138,9 +140,12 @@ def main():
 
     scraped = []
     checked = 0
+    source_status = []
     for source in sources:
         checked += 1
-        scraped.extend(scrape_source(source))
+        found, statuses = scrape_source(source)
+        scraped.extend(found)
+        source_status.append({"institution": source["institution"], "events_detected": len(found), "urls": statuses})
 
     merged = dedupe(kept + scraped)
 
@@ -152,7 +157,9 @@ def main():
 
     EVENTS.parent.mkdir(parents=True, exist_ok=True)
     EVENTS.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Saved {len(merged)} future events from {checked} institutions.")
+    STATUS.write_text(json.dumps({"last_updated": datetime.now().isoformat(timespec="seconds"), "institutions": source_status}, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    failures = sum(x["status"] == "error" for item in source_status for x in item["urls"])
+    print(f"Saved {len(merged)} future events from {checked} institutions; {failures} source errors.")
 
 if __name__ == "__main__":
     main()
