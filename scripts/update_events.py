@@ -157,7 +157,7 @@ def main():
 
     EVENTS.parent.mkdir(parents=True, exist_ok=True)
     EVENTS.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    STATUS.write_text(json.dumps({"last_updated": datetime.now().isoformat(timespec="seconds"), "institutions": source_status}, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    STATUS.write_text(json.dumps({"last_updated": datetime.now().isoformat(timespec="seconds"), "institutions": source_status}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     failures = sum(x["status"] == "error" for item in source_status for x in item["urls"])
     print(f"Saved {len(merged)} future events from {checked} institutions; {failures} source errors.")
 
