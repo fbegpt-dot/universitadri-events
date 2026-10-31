@@ -1,0 +1,151 @@
+{
+  "last_updated": "2026-10-31T16:12:42",
+  "institutions": [
+    {
+      "institution": "LUISS",
+      "events_detected": 15,
+      "urls": [
+        {
+          "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
+          "status": "ok",
+          "http_status": 200
+        }
+      ]
+    },
+    {
+      "institution": "Università Cattolica Roma",
+      "events_detected": 0,
+      "urls": [
+        {
+          "url": "https://www.unicatt.it/corsi/info-lauree-triennali-e-a-ciclo-unico/le-attivita-di-orientamento.html",
+          "status": "error",
+          "message": "404 Client Error: Not Found for url: https://www.unicatt.it/corsi/info-lauree-triennali-e-a-ciclo-unico/le-attivita-di-orientamento.html"
+        }
+      ]
+    },
+    {
+      "institution": "Tor Vergata",
+      "events_detected": 7,
+      "urls": [
+        {
+          "url": "https://economia.uniroma2.it/orientamento",
+          "status": "ok",
+          "http_status": 200
+        },
+        {
+          "url": "https://economia.uniroma2.it/cdl/triennio/clem/eventi-di-orientamento-in-entrata/",
+          "status": "ok",
+          "http_status": 200
+        }
+      ]
+    },
+    {
+      "institution": "Sapienza",
+      "events_detected": 0,
+      "urls": [
+        {
+          "url": "https://www.uniroma1.it/it/appuntamenti/orientamento",
+          "status": "ok",
+          "http_status": 200
+        },
+        {
+          "url": "https://orientamento.uniroma1.it/",
+          "status": "ok",
+          "http_status": 200
+        },
+        {
+          "url": "https://www.architettura.uniroma1.it/",
+          "status": "error",
+          "message": "HTTPSConnectionPool(host='www.architettura.uniroma1.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.architettura.uniroma1.it', port=443) at 0x7c7b393448f0>, 'Connection to www.architettura.un"
+        }
+      ]
+    },
+    {
+      "institution": "LUMSA",
+      "events_detected": 0,
+      "urls": [
+        {
+          "url": "https://lumsa.it/it/open-day-sede-di-roma",
+          "status": "ok",
+          "http_status": 200
+        }
+      ]
+    },
+    {
+      "institution": "Roma Tre",
+      "events_detected": 0,
+      "urls": [
+        {
+          "url": "https://orientamento.uniroma3.it/",
+          "status": "ok",
+          "http_status": 200
+        },
+        {
+          "url": "https://economiaziendale.uniroma3.it/didattica/orientamento/",
+          "status": "ok",
+          "http_status": 200
+        },
+        {
+          "url": "https://architettura.uniroma3.it/didattica/orientamento/",
+          "status": "ok",
+          "http_status": 200
+        }
+      ]
+    },
+    {
+      "institution": "ISIA Roma Design",
+      "events_detected": 0,
+      "urls": [
+        {
+          "url": "https://www.isiaroma.it/studenti/orientamento/",
+          "status": "ok",
+          "http_status": 200
+        }
+      ]
+    },
+    {
+      "institution": "NABA Roma",
+      "events_detected": 6,
+      "urls": [
+        {
+          "url": "https://www.naba.it/it/open-day",
+          "status": "ok",
+          "http_status": 200
+        }
+      ]
+    },
+    {
+      "institution": "IED Roma",
+      "events_detected": 0,
+      "urls": [
+        {
+          "url": "https://www.ied.it/orientamento-opendays-workshop",
+          "status": "ok",
+          "http_status": 200
+        }
+      ]
+    },
+    {
+      "institution": "Accademia Italiana Roma",
+      "events_detected": 0,
+      "urls": [
+        {
+          "url": "https://www.accademiaitaliana.com/servizi/openday",
+          "status": "ok",
+          "http_status": 200
+        }
+      ]
+    },
+    {
+      "institution": "Accademia di Belle Arti di Roma",
+      "events_detected": 0,
+      "urls": [
+        {
+          "url": "https://abaroma.it/",
+          "status": "ok",
+          "http_status": 200
+        }
+      ]
+    }
+  ]
+}

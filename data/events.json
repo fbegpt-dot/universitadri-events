@@ -1,5 +1,5 @@
 {
-  "last_updated": "26/10/2026",
+  "last_updated": "31/10/2026",
   "sources_checked": 11,
   "events": [
     {
@@ -24,26 +24,6 @@
       "verified": true
     },
     {
-      "institution": "LUISS",
-      "title": "Open Day Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insi",
-      "date": "2026-11-21",
-      "areas": [
-        "Economia"
-      ],
-      "details": "Roma · verifica dettagli sulla fonte ufficiale",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
-    },
-    {
-      "institution": "LUISS",
-      "title": "Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insieme ai tuoi familiari, p",
-      "date": "2026-11-21",
-      "areas": [
-        "Economia"
-      ],
-      "details": "Roma · verifica dettagli sulla fonte ufficiale",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
-    },
-    {
       "institution": "NABA Roma",
       "title": "Open Day",
       "date": "2026-11-21",
@@ -55,16 +35,6 @@
       "verified": true
     },
     {
-      "institution": "NABA Roma",
-      "title": "Open Day - 14, 18 e 21 novembre 2026 Compila il form per prenotare il tuo posto Registrati al",
-      "date": "2026-11-21",
-      "areas": [
-        "Design"
-      ],
-      "details": "Roma · verifica dettagli sulla fonte ufficiale",
-      "url": "https://www.naba.it/it/open-day"
-    },
-    {
       "institution": "LUISS",
       "title": "Giornata di orientamento LUISS",
       "date": "2026-12-19",
@@ -77,26 +47,6 @@
     },
     {
       "institution": "LUISS",
-      "title": "Open Day Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insi",
-      "date": "2026-12-19",
-      "areas": [
-        "Economia"
-      ],
-      "details": "Roma · verifica dettagli sulla fonte ufficiale",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
-    },
-    {
-      "institution": "LUISS",
-      "title": "Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insieme ai tuoi familiari, p",
-      "date": "2026-12-19",
-      "areas": [
-        "Economia"
-      ],
-      "details": "Roma · verifica dettagli sulla fonte ufficiale",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
-    },
-    {
-      "institution": "LUISS",
       "title": "Giornata di orientamento LUISS",
       "date": "2027-01-23",
       "areas": [
@@ -105,26 +55,6 @@
       "details": "Roma · orientamento per studenti delle scuole superiori",
       "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
       "verified": true
-    },
-    {
-      "institution": "LUISS",
-      "title": "Open Day Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insi",
-      "date": "2027-01-23",
-      "areas": [
-        "Economia"
-      ],
-      "details": "Roma · verifica dettagli sulla fonte ufficiale",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
-    },
-    {
-      "institution": "LUISS",
-      "title": "Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insieme ai tuoi familiari, p",
-      "date": "2027-01-23",
-      "areas": [
-        "Economia"
-      ],
-      "details": "Roma · verifica dettagli sulla fonte ufficiale",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
     }
   ]
 }
