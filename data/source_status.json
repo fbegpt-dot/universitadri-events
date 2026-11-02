@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-10-31T17:41:48",
+  "last_updated": "2026-11-02T15:44:17",
   "institutions": [
     {
       "institution": "LUISS",
-      "events_detected": 15,
+      "events_detected": 20,
       "urls": [
         {
           "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
@@ -87,7 +87,7 @@
         {
           "url": "https://www.architettura.uniroma1.it/",
           "status": "error",
-          "message": "HTTPSConnectionPool(host='www.architettura.uniroma1.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.architettura.uniroma1.it', port=443) at 0x71720198d460>, 'Connection to www.architettura.un"
+          "message": "HTTPSConnectionPool(host='www.architettura.uniroma1.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.architettura.uniroma1.it', port=443) at 0x7c8fb58d88f0>, 'Connection to www.architettura.un"
         }
       ]
     },

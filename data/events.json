@@ -1,5 +1,5 @@
 {
-  "last_updated": "31/10/2026",
+  "last_updated": "02/11/2026",
   "sources_checked": 12,
   "events": [
     {
@@ -11,6 +11,16 @@
       ],
       "details": "Roma · verifica dettagli sulla fonte ufficiale",
       "url": "https://economia.uniroma2.it/orientamento"
+    },
+    {
+      "institution": "LUISS",
+      "title": "Open Day Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insi",
+      "date": "2026-11-20",
+      "areas": [
+        "Economia"
+      ],
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
     },
     {
       "institution": "LUISS",

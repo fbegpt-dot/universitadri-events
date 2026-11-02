@@ -1,5 +1,5 @@
 {
-  "last_updated": "31/10/2026",
+  "last_updated": "02/11/2026",
   "scope": "Economia e Management — Roma",
   "items": [
     {
@@ -12,6 +12,16 @@
       "url": "https://www.unicatt.it/corsi/triennale/economia-e-gestione-d-azienda-roma.html?anchor=iscrizione",
       "verified": true,
       "source": "verified"
+    },
+    {
+      "institution": "LUISS",
+      "kind": "open_day",
+      "date": "2026-11-20",
+      "title": "Open Day Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insi",
+      "details": "Roma · verifica dettagli sulla fonte ufficiale",
+      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
+      "verified": false,
+      "source": "monitor"
     },
     {
       "institution": "LUISS",
