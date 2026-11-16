@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-11-16T07:40:43+00:00",
+  "run_url": "https://github.com/fbegpt-dot/universitadri-events/actions/runs/43825375810",
+  "status": "success",
+  "steps": {
+    "scrape": "success",
+    "build": "success",
+    "data_commit": "success",
+    "pages_deploy": "success"
+  },
+  "source_checked_at": "2026-11-16T07:40:33",
+  "published_data_updated_at": "16/11/2026",
+  "future_events_count": 14,
+  "new_events_count": 0,
+  "new_events": [],
+  "comparison_available": false,
+  "source_errors_count": 3,
+  "source_errors": [
+    {
+      "institution": "Università Europea di Roma",
+      "url": "https://www.uer.it/economia/indirizzo/management/",
+      "message": "405 Client Error: Not Allowed for url: https://www.uer.it/economia/indirizzo/management/"
+    },
+    {
+      "institution": "Università Europea di Roma",
+      "url": "https://www.uer.it/laurea/open-day/",
+      "message": "405 Client Error: Not Allowed for url: https://www.uer.it/laurea/open-day/"
+    },
+    {
+      "institution": "Sapienza",
+      "url": "https://www.architettura.uniroma1.it/",
+      "message": "HTTPSConnectionPool(host='www.architettura.uniroma1.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate ("
+    }
+  ],
+  "event_keys": [
+    "luiss|open_day|2026-11-20|open day partecipa agli open day nella sede luiss di viale romania 32. durante l’evento, insi|https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
+    "luiss|open_day|2026-11-21|giornata di orientamento luiss|https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
+    "lumsa|open_day|2026-11-21|open day 2027/28 — roma|https://lumsa.it/it/newsroom/eventi/open-day-2027-2028-sabato-21-novembre-appuntamento-roma",
+    "università cattolica roma|open_day|2026-11-28|le lauree triennali e a ciclo unico | 28 novembre 2026 open day unicatt - sede di roma roma|https://www.unicatt.it/eventi/orientamento/triennali-e-a-ciclo-unico/open_day_unicatt_roma.html",
+    "luiss|open_day|2026-12-19|giornata di orientamento luiss|https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
+    "università cattolica roma|scadenza|2027-01-20|scadenza iscrizione alla prova di ammissione|https://www.unicatt.it/corsi/triennale/economia-e-gestione-d-azienda-roma.html?anchor=iscrizione",
+    "luiss|open_day|2027-01-23|giornata di orientamento luiss|https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
+    "università cattolica roma|test|2027-01-28|prime sessioni della prova di ammissione|https://www.unicatt.it/corsi/triennale/economia-e-gestione-d-azienda-roma.html?anchor=iscrizione",
+    "luiss|scadenza|2027-02-10|scadenza candidatura — i sessione test luiss|https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-con-test-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ue",
+    "luiss|test|2027-02-22|test luiss — i sessione|https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-con-test-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ue",
+    "luiss|scadenza|2027-03-24|scadenza ammissione diretta con certificazioni|https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-diretta-con-certificazioni-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ueschengen",
+    "luiss|immatricolazione|2027-05-04|termine prenotazione immatricolazione per ammessi|https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-con-test-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ue",
+    "luiss|scadenza|2027-05-10|scadenza candidatura — ii sessione test luiss|https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-con-test-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ue",
+    "luiss|immatricolazione|2027-07-22|termine per perfezionare l'immatricolazione|https://www.luiss.it/it/orientamento-e-ammissioni/procedure-di-ammissione/ammissione-lauree-triennali-e-ciclo-unico-giurisprudenza/studenti-ue-schengen/ammissione-con-test-ai-corsi-di-laurea-triennale-e-ciclo-unico-studenti-ue"
+  ],
+  "note": "pages_deploy=success confirms GitHub Pages deployment step, not an independent HTTP check of the public URL."
+}
