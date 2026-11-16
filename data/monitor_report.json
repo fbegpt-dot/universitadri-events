@@ -1,6 +1,6 @@
 {
-  "checked_at_utc": "2026-11-16T07:40:43+00:00",
-  "run_url": "https://github.com/fbegpt-dot/universitadri-events/actions/runs/43825375810",
+  "checked_at_utc": "2026-11-16T15:38:55+00:00",
+  "run_url": "https://github.com/fbegpt-dot/universitadri-events/actions/runs/43898495596",
   "status": "success",
   "steps": {
     "scrape": "success",
@@ -8,12 +8,12 @@
     "data_commit": "success",
     "pages_deploy": "success"
   },
-  "source_checked_at": "2026-11-16T07:40:33",
+  "source_checked_at": "2026-11-16T15:38:45",
   "published_data_updated_at": "16/11/2026",
   "future_events_count": 14,
   "new_events_count": 0,
   "new_events": [],
-  "comparison_available": false,
+  "comparison_available": true,
   "source_errors_count": 3,
   "source_errors": [
     {
