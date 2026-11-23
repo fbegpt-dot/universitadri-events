@@ -1,39 +1,7 @@
 {
-  "last_updated": "16/11/2026",
+  "last_updated": "23/11/2026",
   "sources_checked": 12,
   "events": [
-    {
-      "institution": "LUISS",
-      "title": "Open Day Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insi",
-      "date": "2026-11-20",
-      "areas": [
-        "Economia"
-      ],
-      "details": "Roma · verifica dettagli sulla fonte ufficiale",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss"
-    },
-    {
-      "institution": "LUISS",
-      "title": "Giornata di orientamento LUISS",
-      "date": "2026-11-21",
-      "areas": [
-        "Economia"
-      ],
-      "details": "Roma · orientamento per studenti delle scuole superiori",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
-      "verified": true
-    },
-    {
-      "institution": "NABA Roma",
-      "title": "Open Day",
-      "date": "2026-11-21",
-      "areas": [
-        "Design"
-      ],
-      "details": "Roma · Campus NABA",
-      "url": "https://www.naba.it/it/open-day",
-      "verified": true
-    },
     {
       "institution": "Università Cattolica Roma",
       "title": "le lauree triennali e a ciclo unico | 28 novembre 2026 Open Day Unicatt - sede di Roma Roma",

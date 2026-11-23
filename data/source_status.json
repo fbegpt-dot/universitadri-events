@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-11-16T15:38:45",
+  "last_updated": "2026-11-23T17:59:45",
   "institutions": [
     {
       "institution": "LUISS",
-      "events_detected": 20,
+      "events_detected": 10,
       "urls": [
         {
           "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
@@ -136,7 +136,7 @@
     },
     {
       "institution": "NABA Roma",
-      "events_detected": 6,
+      "events_detected": 0,
       "urls": [
         {
           "url": "https://www.naba.it/it/open-day",

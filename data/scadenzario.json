@@ -1,38 +1,7 @@
 {
-  "last_updated": "16/11/2026",
+  "last_updated": "23/11/2026",
   "scope": "Economia e Management — Roma",
   "items": [
-    {
-      "institution": "LUISS",
-      "kind": "open_day",
-      "date": "2026-11-20",
-      "title": "Open Day Partecipa agli Open Day nella sede Luiss di Viale Romania 32. Durante l’evento, insi",
-      "details": "Roma · verifica dettagli sulla fonte ufficiale",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
-      "verified": false,
-      "source": "monitor"
-    },
-    {
-      "institution": "LUISS",
-      "kind": "open_day",
-      "date": "2026-11-21",
-      "title": "Giornata di orientamento LUISS",
-      "details": "Roma · orientamento per studenti delle scuole superiori",
-      "url": "https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
-      "verified": true,
-      "source": "monitor"
-    },
-    {
-      "institution": "LUMSA",
-      "kind": "open_day",
-      "date": "2026-11-21",
-      "time": "09:30",
-      "title": "Open Day 2027/28 — Roma",
-      "details": "Open Day in presenza, sede di Via Pompeo Magno 28.",
-      "url": "https://lumsa.it/it/newsroom/eventi/open-day-2027-2028-sabato-21-novembre-appuntamento-roma",
-      "verified": true,
-      "source": "verified"
-    },
     {
       "institution": "Università Cattolica Roma",
       "kind": "open_day",
