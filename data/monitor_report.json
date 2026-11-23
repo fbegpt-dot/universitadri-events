@@ -1,6 +1,6 @@
 {
-  "checked_at_utc": "2026-11-16T15:38:55+00:00",
-  "run_url": "https://github.com/fbegpt-dot/universitadri-events/actions/runs/43898495596",
+  "checked_at_utc": "2026-11-23T17:59:55+00:00",
+  "run_url": "https://github.com/fbegpt-dot/universitadri-events/actions/runs/45233495548",
   "status": "success",
   "steps": {
     "scrape": "success",
@@ -8,9 +8,9 @@
     "data_commit": "success",
     "pages_deploy": "success"
   },
-  "source_checked_at": "2026-11-16T15:38:45",
-  "published_data_updated_at": "16/11/2026",
-  "future_events_count": 14,
+  "source_checked_at": "2026-11-23T17:59:45",
+  "published_data_updated_at": "23/11/2026",
+  "future_events_count": 11,
   "new_events_count": 0,
   "new_events": [],
   "comparison_available": true,
@@ -33,9 +33,6 @@
     }
   ],
   "event_keys": [
-    "luiss|open_day|2026-11-20|open day partecipa agli open day nella sede luiss di viale romania 32. durante l’evento, insi|https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
-    "luiss|open_day|2026-11-21|giornata di orientamento luiss|https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
-    "lumsa|open_day|2026-11-21|open day 2027/28 — roma|https://lumsa.it/it/newsroom/eventi/open-day-2027-2028-sabato-21-novembre-appuntamento-roma",
     "università cattolica roma|open_day|2026-11-28|le lauree triennali e a ciclo unico | 28 novembre 2026 open day unicatt - sede di roma roma|https://www.unicatt.it/eventi/orientamento/triennali-e-a-ciclo-unico/open_day_unicatt_roma.html",
     "luiss|open_day|2026-12-19|giornata di orientamento luiss|https://www.luiss.it/it/orientamento-e-ammissioni/orientamento/orientamento-studenti-scuole-superiori/giornate-di-orientamento-luiss",
     "università cattolica roma|scadenza|2027-01-20|scadenza iscrizione alla prova di ammissione|https://www.unicatt.it/corsi/triennale/economia-e-gestione-d-azienda-roma.html?anchor=iscrizione",
